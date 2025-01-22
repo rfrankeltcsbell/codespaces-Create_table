@@ -48,7 +48,7 @@ FOREIGN KEY (CustomerID) REFERENCES Customers(CustomerID)
  """)
 
  #4. OrderDetails Table
-cursor.execute(""""
+cursor.execute("""
  CREATE TABLE OrderDetails               
   OrderDetailID INTEGER PRIMARY KEY AUTOINTERCREMENT,              
   OrderID INTEGER,             
